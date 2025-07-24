@@ -1,7 +1,8 @@
-import React from "react"; // ✅ Required in some setups (like older Vite/Babel configs)
+import React from "react";
+const user = "ascs";
 
 function App() {
-  return <h1>Hello React!</h1>;
+  return <h1>Hello React! {user}</h1>; //user is evaluated expression of javascript  here
 }
 
 export default App;
